@@ -1,5 +1,5 @@
 # ASHUD
-## A HUD utils for OS X wrote in Swift
+## A HUD utils for OS X wrote in Swift ([中文](https://antscript.com/post/2016-06-06-ASHUD/))
 
 ![example image](example.png)
 
