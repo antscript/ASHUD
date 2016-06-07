@@ -1,7 +1,7 @@
 # ASHUD
 ## A HUD utils for OS X wrote in Swift
 
-
+![example image](example.png)
 
 # Installation
 Clone and copy ASHUD.swift and ASTimeUtils.swift to your project.
