@@ -18,12 +18,12 @@ class ASHUD {
     
     var delayTask:ASTimeUtils.Task?
     
-    init() {
+    private init() {
         window = NSWindow(contentRect: NSMakeRect(0, 0, 500, 160), styleMask: NSBorderlessWindowMask, backing: .Buffered, defer: false)
         window.level = Int(CGWindowLevelForKey(CGWindowLevelKey.AssistiveTechHighWindowLevelKey))
         window.opaque = false
         window.backgroundColor = NSColor.clearColor()
-        
+        window.ignoresMouseEvents = true
         
         hudView = NSView()
         
